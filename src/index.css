@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #0072c6 ;
+    --secondary-color: #10cdcd ;
+    --Accent-color1: #ffffff ;
+    --Accent-color2: #333333 ;
+    --Accent-color3: #e2e2e2 ;
+    --error-background:rgba(255, 119, 119, 0.81);
+    --error-color:rgb(255, 42, 42);
+}
+*{
+    margin: 0;
+    padding: 0;
+}

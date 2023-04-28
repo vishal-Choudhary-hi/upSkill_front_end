@@ -1,0 +1,40 @@
+.navBar{
+    display: flex;
+    width: 100%;
+    background-color: var(--Accent-color3);
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    margin-left: 10px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.logo img{
+    width: 30%;
+}
+.menu{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu p{
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.menu p:hover{
+    background-color: var(--secondary-color);
+    color: var(--Accent-color3);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, border-radius 0.5s ease;
+}
+
